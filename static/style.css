@@ -1,0 +1,75 @@
+body {
+	max-width: 60em;
+	margin: 0 auto;
+	font-family: sans-serif;
+	background-color: lightgray;
+}
+.row {
+	text-align: center;
+}
+
+.box{
+	padding: 1em;
+	color: white;
+	background-color: gray;
+}
+.heim {
+	color: blue;
+	padding: 1em;
+	text-decoration: underline;
+}
+a {
+	color: white;
+	text-decoration: none;
+}
+
+.bestaverd {
+	border: 1px solid black;
+	margin: auto;
+	border-radius: 5px;
+	background: yellow;
+	width: 30em;
+
+}
+
+table {
+	border-collapse: collapse;
+	width: 100%
+}
+
+td, th {
+	border: 1px solid black;
+	text-align: left;
+	padding: 8px;
+	width: 50%;
+}
+tr:nth-child(even) {
+	background-color: gray;
+}
+
+h3,h1 {
+	text-align: center;
+}
+.kort {
+	border: 1px solid black;
+
+	background: yellow;
+	width: 15em;
+	margin: auto;
+	padding: 1em;
+	border-radius: 5px;
+	text-align: center;
+}
+.kort a {
+	color: blue;
+	text-decoration: underline;
+}
+
+.kort ul li {
+	list-style-type: none;
+	text-align: left;
+}
+.myndir {
+	display: inline-block;
+	
+}
